@@ -22,12 +22,6 @@ spring:
     url: jdbc:h2:mem:dota
     username: sa
     password: password
-  banner:
-    image:
-      location: classpath:banner.png
-      width: 100
-      height: 15
-      margin: 1
   h2:
     console:
       enabled: true

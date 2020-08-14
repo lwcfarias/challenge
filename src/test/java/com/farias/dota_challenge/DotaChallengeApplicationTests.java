@@ -1,4 +1,4 @@
-package com.farias.challenge;
+package com.farias.dota_challenge;
 
 import java.io.IOException;
 
@@ -33,7 +33,7 @@ class DotaChallengeApplicationTests {
 	private Resource file2;
 	
 	@Test
-	void contextLoads() throws JsonProcessingException, Exception {
+	public void contextLoads() throws JsonProcessingException, Exception {
 		assertDataLoaded(file1, "1");
 		assertDataLoaded(file2, "2");
 	
