@@ -1,13 +1,13 @@
-package gg.bayes.challenge.repository;
+package com.farias.dota_challenge.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import gg.bayes.challenge.entity.Match;
-import gg.bayes.challenge.rest.model.HeroDamage;
-import gg.bayes.challenge.rest.model.HeroSpells;
+import com.farias.dota_challenge.entity.Match;
+import com.farias.dota_challenge.rest.model.HeroDamage;
+import com.farias.dota_challenge.rest.model.HeroSpells;
 
 public interface DotaRepository extends JpaRepository<Match, Long>{
 		

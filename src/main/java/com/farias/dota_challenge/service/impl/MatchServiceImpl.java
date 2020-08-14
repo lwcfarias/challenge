@@ -1,4 +1,4 @@
-package gg.bayes.challenge.service.impl;
+package com.farias.dota_challenge.service.impl;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -12,16 +12,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
-import gg.bayes.challenge.entity.Damage;
-import gg.bayes.challenge.entity.Match;
-import gg.bayes.challenge.entity.Purchase;
-import gg.bayes.challenge.entity.Spell;
-import gg.bayes.challenge.repository.DotaRepository;
-import gg.bayes.challenge.rest.model.HeroDamage;
-import gg.bayes.challenge.rest.model.HeroItems;
-import gg.bayes.challenge.rest.model.HeroKills;
-import gg.bayes.challenge.rest.model.HeroSpells;
-import gg.bayes.challenge.service.MatchService;
+import com.farias.dota_challenge.entity.Damage;
+import com.farias.dota_challenge.entity.Match;
+import com.farias.dota_challenge.entity.Purchase;
+import com.farias.dota_challenge.entity.Spell;
+import com.farias.dota_challenge.repository.DotaRepository;
+import com.farias.dota_challenge.rest.model.HeroDamage;
+import com.farias.dota_challenge.rest.model.HeroItems;
+import com.farias.dota_challenge.rest.model.HeroKills;
+import com.farias.dota_challenge.rest.model.HeroSpells;
+import com.farias.dota_challenge.service.MatchService;
+
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

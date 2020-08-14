@@ -1,4 +1,4 @@
-package gg.bayes.challenge.config;
+package com.farias.dota_challenge.config;
 
 import com.google.common.base.Predicates;
 import org.springframework.context.annotation.Bean;

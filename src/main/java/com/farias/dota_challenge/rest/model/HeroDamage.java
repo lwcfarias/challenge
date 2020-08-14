@@ -1,4 +1,4 @@
-package gg.bayes.challenge.rest.model;
+package com.farias.dota_challenge.rest.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

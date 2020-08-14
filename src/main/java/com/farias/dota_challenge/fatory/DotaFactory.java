@@ -1,12 +1,12 @@
-package gg.bayes.challenge.fatory;
+package com.farias.dota_challenge.fatory;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import gg.bayes.challenge.rest.model.HeroDamage;
-import gg.bayes.challenge.rest.model.HeroItems;
-import gg.bayes.challenge.rest.model.HeroKills;
-import gg.bayes.challenge.rest.model.HeroSpells;
+import com.farias.dota_challenge.rest.model.HeroDamage;
+import com.farias.dota_challenge.rest.model.HeroItems;
+import com.farias.dota_challenge.rest.model.HeroKills;
+import com.farias.dota_challenge.rest.model.HeroSpells;
 
 public class DotaFactory {
 	public static List<HeroItems> createEmptyHeroItems() {

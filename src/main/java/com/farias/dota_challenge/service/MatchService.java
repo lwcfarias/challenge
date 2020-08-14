@@ -1,11 +1,11 @@
-package gg.bayes.challenge.service;
+package com.farias.dota_challenge.service;
 
 import java.util.List;
 
-import gg.bayes.challenge.rest.model.HeroDamage;
-import gg.bayes.challenge.rest.model.HeroItems;
-import gg.bayes.challenge.rest.model.HeroKills;
-import gg.bayes.challenge.rest.model.HeroSpells;
+import com.farias.dota_challenge.rest.model.HeroDamage;
+import com.farias.dota_challenge.rest.model.HeroItems;
+import com.farias.dota_challenge.rest.model.HeroKills;
+import com.farias.dota_challenge.rest.model.HeroSpells;
 
 public interface MatchService {
 	

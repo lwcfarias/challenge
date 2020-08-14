@@ -1,4 +1,4 @@
-package gg.bayes.challenge.rest.controller;
+package com.farias.dota_challenge.rest.controller;
 
 import java.util.List;
 
@@ -14,12 +14,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import gg.bayes.challenge.repository.DotaRepository;
-import gg.bayes.challenge.rest.model.HeroDamage;
-import gg.bayes.challenge.rest.model.HeroItems;
-import gg.bayes.challenge.rest.model.HeroKills;
-import gg.bayes.challenge.rest.model.HeroSpells;
-import gg.bayes.challenge.service.MatchService;
+import com.farias.dota_challenge.repository.DotaRepository;
+import com.farias.dota_challenge.rest.model.HeroDamage;
+import com.farias.dota_challenge.rest.model.HeroItems;
+import com.farias.dota_challenge.rest.model.HeroKills;
+import com.farias.dota_challenge.rest.model.HeroSpells;
+import com.farias.dota_challenge.service.MatchService;
+
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

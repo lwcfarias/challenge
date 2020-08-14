@@ -1,4 +1,4 @@
-package gg.bayes.challenge;
+package com.farias.challenge;
 
 import java.io.IOException;
 

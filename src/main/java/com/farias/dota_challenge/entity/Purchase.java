@@ -1,4 +1,4 @@
-package gg.bayes.challenge.entity;
+package com.farias.dota_challenge.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

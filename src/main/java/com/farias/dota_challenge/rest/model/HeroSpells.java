@@ -1,4 +1,4 @@
-package gg.bayes.challenge.rest.model;
+package com.farias.dota_challenge.rest.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
